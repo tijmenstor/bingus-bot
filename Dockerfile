@@ -1,8 +1,8 @@
-FROM alpine:3.17.1
+FROM ubuntu:latest
 
 WORKDIR /bingus
 
-RUN apk add --no-cache opus ffmpeg libc6-compat
+RUN apt update && apt install -y opus ffmpeg
 
 COPY bingus-bot .
 COPY commands.json .
