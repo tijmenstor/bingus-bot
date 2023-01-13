@@ -2,7 +2,7 @@ FROM alpine:3.17.1
 
 WORKDIR /bingus
 
-RUN apk add --no-cache opus ffmpeg
+RUN apk add --no-cache opus ffmpeg libc6-compat
 
 COPY bingus-bot .
 COPY commands.json .
