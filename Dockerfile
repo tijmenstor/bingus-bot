@@ -1,8 +1,8 @@
-FROM ubuntu:latest
+FROM alpine:3.17.1
 
 WORKDIR /bingus
 
-RUN apt update && apt install -y ffmpeg
+RUN apk add --no-cache opus ffmpeg gcompat ca-certificates
 
 COPY bingus-bot .
 COPY commands.json .
