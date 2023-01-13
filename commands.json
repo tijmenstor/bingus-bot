@@ -50,5 +50,29 @@
             "auto"
         ],
         "fileName": "Optimum Pride"
+    },
+    {
+        "commands": [
+            "croissant",
+            "jimmymom",
+            "aaaah"
+        ],
+        "fileName": "croissant"
+    },
+    {
+        "commands": [
+            "ps",
+            "simon",
+            "verveeld"
+        ],
+        "fileName": "Joost verveeld zich"
+    },
+    {
+        "commands": [
+            "rage kid",
+            "kid",
+            "rager"
+        ],
+        "fileName": "rage kid"
     }
 ]
