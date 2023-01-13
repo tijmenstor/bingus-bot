@@ -138,6 +138,13 @@ func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 		return
 	}
 
+	// Check if the bot is not already playing in a channel
+	for _, vs := range g.VoiceStates {
+		if vs.UserID == s.State.User.ID {
+			return
+		}
+	}
+
 	prefixlessCommand := strings.TrimPrefix(m.Content, commandPrefix)
 	if sound, ok := commandsMap[prefixlessCommand]; ok {
 		playSound(s, guildID, channelID, fmt.Sprintf("%s/%s.mp3", soundsFolder, sound))
