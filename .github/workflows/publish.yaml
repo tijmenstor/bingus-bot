@@ -69,4 +69,4 @@ jobs:
           push: true
           tags: |
             tijmen34/bingus-bot:${{ needs.release.outputs.version }}
-            tijmen34/bingus-bot:${{ needs.release.outputs.major }}
+            tijmen34/bingus-bot:v${{ needs.release.outputs.major }}
