@@ -16,4 +16,4 @@ Then we do the run!
 ./bingus-bot -t <YOUR_DISCORD_BOT_TOKEN>
 ```
 
-Enjoy the bingus
+Enjoy the bingus!
