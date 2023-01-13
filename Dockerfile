@@ -4,7 +4,7 @@ WORKDIR /bingus
 
 RUN apk add --no-cache opus ffmpeg
 
-COPY --from=build /app/bingus-bot .
+COPY bingus-bot .
 COPY commands.json .
 COPY sounds ./sounds
 
