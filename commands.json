@@ -8,10 +8,18 @@
     },
     {
         "commands": [
-            "bob",
-            "ashe"
+            "ashe-uwu",
+            "oh-bob",
+            "ohb"
         ],
-        "fileName": "bob"
+        "fileName": "oh-bob"
+    },
+    {
+        "commands": [
+            "bob-jingle",
+            "BOB"
+        ],
+        "fileName": "bob-jingle"
     },
     {
         "commands": [
