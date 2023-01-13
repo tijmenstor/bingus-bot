@@ -11,18 +11,26 @@ jobs:
   release:
     runs-on: ubuntu-latest
     outputs:
-      version: ${{ steps.version.outputs.new_release_version }}
+      version: ${{ steps.version.outputs.version }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      - name: Semantic Release
-        uses: cycjimmy/semantic-release-action@v2
+      - uses: paulhatch/semantic-version@v5.0.3
         id: version
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_prefix: "v"
+          major_pattern: "(MAJOR)"
+          minor_pattern: "(MINOR)"
+      
+      - name: Create tag
+        run: |
+          git config --local user.email "github-action@users.noreply.github.com"
+          git config --local user.name "github-action"
+          git tag ${{ steps.version.outputs.version }}
+          git push --tags
 
   publish:
     needs: release
