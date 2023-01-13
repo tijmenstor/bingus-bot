@@ -27,8 +27,6 @@ jobs:
       
       - name: Create tag
         run: |
-          git config --local user.email "github-action@users.noreply.github.com"
-          git config --local user.name "github-action"
           git tag ${{ steps.version.outputs.version }}
           git push --tags
 
