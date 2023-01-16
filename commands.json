@@ -17,7 +17,7 @@
     {
         "commands": [
             "bob-jingle",
-            "BOB"
+            "bob"
         ],
         "fileName": "bob-jingle"
     },
@@ -34,7 +34,7 @@
             "neednotank",
             "doomfist"
         ],
-        "fileName": "neednotank"
+        "fileName": "need-no-tank"
     },
     {
         "commands": [
@@ -49,7 +49,7 @@
             "uhaha",
             "auto"
         ],
-        "fileName": "Optimum Pride"
+        "fileName": "optimum-pride"
     },
     {
         "commands": [
@@ -65,7 +65,7 @@
             "simon",
             "verveeld"
         ],
-        "fileName": "Joost verveeld zich"
+        "fileName": "joost-verveeld"
     },
     {
         "commands": [
@@ -73,6 +73,14 @@
             "kid",
             "rager"
         ],
-        "fileName": "rage kid"
+        "fileName": "rage-kid"
+    },
+    {
+        "commands": [
+            "skibidi",
+            "skibidi-bop",
+            "skibidi-bop-bop-yes-yes"
+        ],
+        "fileName": "skibidi-bop-bop-yes-yes-remix"
     }
 ]
