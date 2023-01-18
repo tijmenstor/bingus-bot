@@ -82,5 +82,19 @@
             "skibidi-bop-bop-yes-yes"
         ],
         "fileName": "skibidi-bop-bop-yes-yes-remix"
+    },
+    {
+        "commands": [
+            "joebiden",
+            "soda"
+        ],
+        "fileName": "joe-biden-soda"
+    },
+    {
+        "commands": [
+            "obamna",
+            "dtrump"
+        ],
+        "fileName": "obamna"
     }
 ]
