@@ -74,5 +74,13 @@
             "rager"
         ],
         "fileName": "rage kid"
+    },
+    {
+        "commands": [
+            "crusty",
+            "cronch",
+            "ginggong"
+        ],
+        "fileName": "ging-gong"
     }
 ]
