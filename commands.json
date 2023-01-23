@@ -17,7 +17,7 @@
     {
         "commands": [
             "bob-jingle",
-            "BOB"
+            "bob"
         ],
         "fileName": "bob-jingle"
     },
@@ -34,7 +34,7 @@
             "neednotank",
             "doomfist"
         ],
-        "fileName": "neednotank"
+        "fileName": "need-no-tank"
     },
     {
         "commands": [
@@ -49,7 +49,7 @@
             "uhaha",
             "auto"
         ],
-        "fileName": "Optimum Pride"
+        "fileName": "optimum-pride"
     },
     {
         "commands": [
@@ -65,7 +65,7 @@
             "simon",
             "verveeld"
         ],
-        "fileName": "Joost verveeld zich"
+        "fileName": "joost-verveeld"
     },
     {
         "commands": [
@@ -82,5 +82,42 @@
             "ginggong"
         ],
         "fileName": "ging-gong"
+    },
+    {
+        "commands": [
+            "skibidi",
+            "skibidi-bop",
+            "skibidi-bop-bop-yes-yes"
+        ],
+        "fileName": "skibidi-bop-bop-yes-yes-remix"
+    },
+    {
+        "commands": [
+            "joebiden",
+            "soda"
+        ],
+        "fileName": "joe-biden-soda"
+    },
+    {
+        "commands": [
+            "obamna",
+            "dtrump"
+        ],
+        "fileName": "obamna"
+    },
+    {
+        "commands": [
+            "earthworms",
+            "earfwurms",
+            "yummy"
+        ],
+        "fileName": "earthworms"
+    },
+    {
+        "commands": [
+            "goofy",
+            "laugh"
+        ],
+        "fileName": "goofy-laugh"
     }
 ]
