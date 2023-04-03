@@ -119,5 +119,12 @@
             "laugh"
         ],
         "fileName": "goofy-laugh"
+    },
+    {
+        "commands": [
+            "fred",
+            "ashe-joke"
+        ],
+        "fileName": "fred-oops"
     }
 ]
