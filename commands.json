@@ -126,5 +126,12 @@
             "ashe-joke"
         ],
         "fileName": "fred-oops"
+    },
+    {
+        "commands": [
+            "oei",
+            "quincy"
+        ],
+        "fileName": "oei-oei-oei"
     }
 ]
